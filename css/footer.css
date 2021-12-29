@@ -1,0 +1,30 @@
+footer{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background-color: #282d32;
+    height: 400px;
+}
+
+.upper-part{
+    /* background-color: #111; */
+    padding: 15px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.social ul{
+    display: flex;
+}
+
+.social ul li{
+    list-style: none;
+    
+    filter: invert(1);
+    transform: scale(0.5);
+}
+

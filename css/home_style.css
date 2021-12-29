@@ -1,0 +1,99 @@
+.overlay{
+    background: linear-gradient(to left, transparent, rgb(126 99 204));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font5);
+    
+}
+
+header .heading{
+    color: #111;
+    margin-left: 20px;
+    z-index: 100;
+}
+
+.nav-bar li{
+    list-style: none;
+    margin-right: 20px;
+    z-index: 100;
+}
+
+.nav-bar ul{
+    display: flex;
+    align-items: left;
+    font-size: 20px;
+}
+
+.nav-bar li a{
+    text-decoration: none;
+    color: #111;
+    margin-right: 20px;
+    transition: 0.9s;
+    justify-content: space-around;
+}
+
+.nav-bar li a:hover{
+    font-weight: bolder;
+}
+
+.content{
+    display: flex;
+    height: 500px;
+}
+
+.content-left{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;  
+}
+
+.content-left h2{
+    font-family: var(--font2);
+    font-size: 30px;
+}
+
+.content-left p{
+    margin-top: 25px;
+    text-align: justify;
+    font-family: var(--font4);
+    font-size: 23px;
+}
+
+.content-right{
+    max-width: 50%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.content-right img{
+    width: 556px;
+    height: 358px;
+}
+
+.buttons{
+    position: absolute;
+    top: 90%;
+    transition: 0.3s;
+}
+
+.buttons :hover{
+    background-color: #111;
+    color: #fff;
+}
+
+.buttons #get02{
+    margin-left: 20px;
+}
